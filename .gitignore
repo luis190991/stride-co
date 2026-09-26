@@ -1,2 +1,20 @@
-node_modules
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Pruebas
+coverage/
+
+# Sistema operativo / editores
 .DS_Store
+.idea/
+.vscode/

@@ -1,5 +1,5 @@
-function healthCheck(req, res, next) {
-    res.json({ status: "UP" });
+function healthCheck(req, res) {
+  res.json({ status: 'UP' });
 }
 
-module.exports = {healthCheck};
+module.exports = { healthCheck };
